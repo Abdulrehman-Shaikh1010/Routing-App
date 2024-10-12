@@ -4,12 +4,12 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #2706e0;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: hsl(204, 17%, 94%);
     --foreground: #ededed;
   }
 }
@@ -23,5 +23,9 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  .border {
+    padding: 20px;
   }
 }
